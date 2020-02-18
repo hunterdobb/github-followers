@@ -21,6 +21,9 @@ class SearchVC: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         view.addSubviews(logoImageView, usernameTextField, callToActionButton)
+        
+        print("This is a test")
+        
         configureLogoImageView()
         configureTextField()
         configureCallToActionButton()
